@@ -124,35 +124,69 @@
 /* Navbar Notification */
 .header__notify{
     position: absolute;
-    top: 100%;
+    top: 118%;
     right: 0;
     width: 404px;
     background-color: var(--white-color);
+    border: 1px solid #d3d3d3;
 }
 
 .header__notify-header{
-
+    height: 40px;
+    background-color: var(--white-color);
 } 
-.header__notify-list{
 
+.header__notify-header h3{
+    color: #666;
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 12px;
+}
+.header__notify-list{
+    padding-left: 0;
 } 
 .header__notify-item{
-
+    background-color: rgba(247,72,46,0.08);
 } 
-.header__notify-link{
 
+.header__notify-item:hover{
+    background-color: var(--white-color);
+}
+.header__notify-link{
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
 } 
 .header__notify-img{
-
+    max-width: 48px;
+    object-fit: contain;
 } 
 .header__notify-info{
-
+    margin-left: 12px;
+    line-height: 2rem;
 } 
 .header__notify-name{
-
+    display: block;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 550;
 } 
 .header__notify-des{
+    display: block;
+    font-size: 1.2rem;
+    color: #756f6e;
+}
 
+.header__notify-all,
+.header__notify-footer-btn{
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    color: var(--black-color);
 }
 
 /* Animations */
