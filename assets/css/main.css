@@ -189,6 +189,11 @@
     color: var(--black-color);
 }
 
+.header__notify-footer-btn{
+    padding: 0 100px;
+    width: 100%;
+}
+
 /* Animations */
 @keyframes fadeIn {
     from{
